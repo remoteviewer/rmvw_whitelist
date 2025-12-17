@@ -1,0 +1,77 @@
+[
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "\u0422\u043E\u0440\u0440\u0435\u043D\u0442 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true,
+    "remarks": "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u044B\u0435 IP \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "type": "field",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u044B\u0435 \u0434\u043E\u043C\u0435\u043D\u044B \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "type": "field",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:refilter",
+      "geosite:category-ai-cn",
+      "geosite:category-ai-!cn",
+      "geosite:youtube",
+      "geosite:discord",
+      "geosite:instagram",
+      "geosite:facebook",
+      "geosite:rutracker",
+      "geosite:medium",
+      "geosite:quora",
+      "geosite:annas-archive",
+      "geosite:libgen",
+      "geosite:tiktok",
+      "geosite:soundcloud",
+      "geosite:1337x",
+      "geosite:linkedin",
+      "geosite:patreon",
+      "geosite:twitter",
+      "geosite:jetbrains",
+      "geosite:jetbrains-ai",
+      "4pda.to",
+      "blog.2ndquadrant.com",
+      "aeza.net",
+      "reverb.com"
+    ],
+    "enabled": true,
+    "remarks": "\u0414\u043E\u043C\u0435\u043D\u044B \u0447\u0435\u0440\u0435\u0437 \u043F\u0440\u043E\u043A\u0441\u0438"
+  },
+  {
+    "type": "field",
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:re-filter"
+    ],
+    "enabled": true,
+    "remarks": "\u0410\u0439\u043F\u0438 \u0447\u0435\u0440\u0435\u0437 \u043F\u0440\u043E\u043A\u0441\u0438"
+  },
+  {
+    "type": "field",
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "enabled": true,
+    "remarks": "\u041E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  }
+]
